@@ -6,7 +6,7 @@ import Projects from "@/sections/Projects/Projects";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-16 px-4 md:px-10 mx-auto max-w-screen-lg">
+    <main className="flex flex-col items-center justify-center gap-16 px-4 md:px-10 mx-auto max-w-screen-[1280px]">
       <Hero/>
       <About/>
       <Projects/>
