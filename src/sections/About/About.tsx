@@ -76,12 +76,12 @@ export default function About() {
             viewport={{once:false, amount: 0.2}}
             className=' text-smClamp text-zinc-700 dark:text-zinc-300'>A detail-oriented Front End Developer passionate about crafting seamless digital experiences. With expertise on latest technologies, I thrive in dynamic environments, leveraging creativity and effective communication to deliver projects on time and within scope.
             As a strong team player, I believe in collaboration and fostering inclusive environments. I prioritize time management and writing clean, sustainable code to create enduring solutions. Let's work together to build exceptional digital experiences!</motion.p>
-            <motion.a href="" 
+            <motion.a href="/DarelHonrejas.pdf" 
                 variants={fadeIn('right', .6)}
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{once:false, amount: 0.2}}
-                className=' text-smClamp flex items-center gap-2 px-8 py-2 mt-4 rounded-full text-zinc-600 bg-zinc-200 dark:bg-zinc-900'>Resume <FiDownload size={20}/></motion.a>
+                className=' text-smClamp flex items-center gap-2 px-8 py-2 mt-4 rounded-full text-zinc-600 bg-zinc-200 dark:bg-zinc-900' download>Resume <FiDownload size={20}/></motion.a>
         </div>
 
         <div className=' flex flex-col gap-8 items-center'>
