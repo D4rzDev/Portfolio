@@ -37,7 +37,7 @@ export default function Navbar() {
     setIsOpen(!isOpen)
   };
   return (
-    <nav className=' sticky flex items-center justify-center max-w-[1280px] top-0 z-20 h-12 px-4 md:px-8 py-8 bg-inherit w-full'>
+    <nav className=' sticky flex items-center justify-center mx-auto max-w-[1280px] top-0 z-20 h-12 px-4 md:px-8 py-8 bg-inherit w-full'>
         <div className=' flex items-center justify-between w-full'>
             <a href="/">
                 <Image src='/d.ev.svg' width={50} height={50} alt='logo'/>
