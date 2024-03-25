@@ -21,7 +21,7 @@ const social = [
 ]
 export default function Footer() {
   return (
-    <footer className='flex flex-col items-center justify-center max-w-[1280px] gap-10 py-16 mt-16 bg-zinc-200 dark:bg-zinc-900'>
+    <footer className='flex flex-col items-center justify-center mx-auto max-w-[1280px] gap-10 py-16 mt-16 bg-zinc-200 dark:bg-zinc-900'>
          <div className=' flex items-center gap-4 '>
               { social.map(( socials) => (
                 <motion.a href="" 
