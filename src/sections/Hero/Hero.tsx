@@ -56,7 +56,7 @@ export default function Hero() {
                 viewport={{once:false, amount: 0.2}}
                 className=' text-smClamp text-white bg-gradient-to-r from-blue-600 via-purple-500 to-rose-500 px-8 py-2 rounded-full'>Projects</motion.a>
                 
-                <motion.a href="" 
+                <motion.a href="#contact" 
                 variants={fadeIn('up', 1)}
                 initial='hidden'
                 whileInView={'show'}
