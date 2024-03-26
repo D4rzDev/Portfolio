@@ -19,15 +19,15 @@ import { fadeIn } from '@/lib/variant';
 const social = [
   {
     icon: <FaLinkedin size={25}/>,
-    url: ''
+    url: 'https://www.linkedin.com/in/darel-honrejas-15455b288/'
   },
   {
     icon: <FaGithubSquare size={25}/>,
-    url: ''
+    url: 'https://github.com/D4rzDev'
   },
   {
     icon: <IoMail size={25}/>,
-    url: ''
+    url: 'mailto:darelhonrejaswork@gmail.com'
   },
 ]
 
@@ -85,7 +85,7 @@ export default function Navbar() {
                           >Contact</motion.a>
                           <div className=' flex items-center gap-6  mt-10'>
                           { social.map(( socials) => (
-                            <motion.a href="" 
+                            <motion.a href={socials.url} 
                             variants={fadeIn('up', .5)}
                             initial='hidden'
                             whileInView={'show'}
