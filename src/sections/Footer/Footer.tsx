@@ -8,15 +8,15 @@ import { IoMail } from 'react-icons/io5'
 const social = [
   {
     icon: <FaLinkedin size={25}/>,
-    url: ''
+    url: 'https://www.linkedin.com/in/darel-honrejas-15455b288/'
   },
   {
     icon: <FaGithubSquare size={25}/>,
-    url: ''
+    url: 'https://github.com/D4rzDev'
   },
   {
     icon: <IoMail size={25}/>,
-    url: ''
+    url: 'mailto:darelhonrejaswork@gmail.com'
   },
 ]
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
     <footer className='flex flex-col items-center justify-center mx-auto max-w-[1280px] gap-10 py-16 mt-16 bg-zinc-200 dark:bg-zinc-900'>
          <div className=' flex items-center gap-4 '>
               { social.map(( socials) => (
-                <motion.a href="" 
+                <motion.a href={socials.url}
                 variants={fadeIn('up', .2)}
                 initial='hidden'
                 whileInView={'show'}
